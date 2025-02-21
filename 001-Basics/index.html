@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+
+    <!-- EXTERNAL CSS -->
+    <link rel="stylesheet" href="">
+    
+
+
+    <!-- INTERNAL CSS: <style> tag is ued inside the head -->
+
+    <!--
+        Syntax:
+            selector{
+                property : value;
+                property : value;
+                property : value
+            
+            } 
+    -->
+
+    <style>
+        
+        /* Selects all the buttons */
+        button{
+            background-color: burlywood;
+            color:brown;
+            border: 2px solid black;
+            border-radius: 20px;
+            margin: 10px;
+            padding: 10px;
+            font-weight: bold;
+            cursor:pointer;
+        }
+
+        button{
+            border:2px solid rosybrown;
+        }
+
+        p{  
+            font-size: 30px;
+            padding:20px;
+            border-radius: 30px;
+        }
+
+        /* Selects class: my-class-a */
+        .my-class-a{
+            text-decoration: underline;
+        }
+
+        .my-class-b{
+            font-size: 50px;
+        }
+
+        /* Selects ID: btn-1*/
+        #btn-1{
+            text-decoration:underline;
+        }
+
+
+        /*
+
+            Understanding terms with anologies:
+
+            Tag -> Students
+            Class -> Group
+            ID -> Unique
+
+            Class (. selector is used)
+                - Multiple students can belong to same class (Multiple HTML tags can belong to same class)
+                - A single student can belong to multiple classes (A single tag can belong to multiple classes)
+
+            ID (# selector is used)
+                - A unique student has only one unique ID
+                - Similarly, a unique ID belongs to a unique student
+
+
+            Specificity:
+
+                -------- Specificity Increases -------->
+                Tag -----> Class -----> ID -----> Inline
+
+        */
+
+    </style>
+
+</head>
+<body>
+
+    <!-- 
+        - Default styling is done by browser (User Agent Stylesheet)
+        - We cannot change the default styles
+        - We OVERRIDE them using CSS (Cascading Stylesheet)
+        - Cascading is done by SPECIFICITY ALGORITHM (weight/ priority)
+    -->
+
+    <p style="background-color:aqua; text-decoration: underline;">This is a CSS class</p>
+    <button id="btn-1" class="my-class-b" style="color: white;">Click Me</button>
+
+    <!--
+        - Go to inspect element, to understand better
+        - Select the element to view the stylesheet 
+    -->
+    
+    <hr>
+
+    <!--
+        Methods to write CSS:
+            1. Inline CSS
+            2. Internal CSS
+            3. External CSS
+    -->
+
+    <!-- INLINE CSS: style attribute is used in HTML tags -->
+
+    <button style="background-color:antiquewhite;">Button</button>
+
+    <hr>
+
+    <button>New Button</button>
+
+    <hr>
+
+    <h1 class="my-class-a">Heading</h1>
+
+    <button>Button</button>
+
+    <p class="my-class-a my-class-b">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque sapiente, illo iste sequi ipsum dolorem autem officia libero iure modi veritatis in odio! Iure aspernatur fugit ex consequatur vel, culpa quaerat, laboriosam dignissimos laborum, vitae nulla a. Qui, est officiis, animi modi consequuntur neque aliquam nesciunt esse dolore quasi nobis.
+    </p>
+
+</body>
+</html>
