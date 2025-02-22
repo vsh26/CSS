@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+
+    <style>
+
+        /* Flush CSS */
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        nav{
+            display: flex;
+            background-color: #1f2937;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px 80px;     /* Top, bottom: 20px; Left,right: 80px*/
+            color: #ffffff;
+        }
+
+        nav div ul{
+            display: flex;
+            gap: 20px;
+            list-style-type: none;
+            cursor: pointer;
+        }
+
+        nav div button{
+            padding: 5px 10px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+
+        nav div button:hover{
+            background-color: #537060;
+            color: #ffffff
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div>
+            <p>My Logo</p>
+        </div>
+
+        <div>
+            <ul>
+                <li>Home</li>
+                <li>About us</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+
+        <div>
+            <button>Sign Up</button>
+            <button>Log In</button>
+        </div>
+    </nav>
+    
+</body>
+</html>
