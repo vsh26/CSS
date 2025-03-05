@@ -1,0 +1,268 @@
+#subscribe-btn{
+
+    /* property: value */
+
+    background-color: rgb(204, 0, 0);
+    color: white;
+    border: none;
+
+    /* top-bottom right-left */
+    padding: 10px 16px;
+
+    /*
+        top bottom right left
+        padding: 10px 16px 10px 16px;
+    */
+
+    /*
+
+        settind height and width is not a good practice here, use padding instead
+        
+        height: 36px;
+        width: 105px;
+    
+    */
+
+    border-radius: 4px;
+    cursor: pointer;
+    /* for space between buttons */
+    margin-right: 8px;
+
+    transition: opacity 0.15s;
+}
+
+/* This is called as pseudo-class */
+/* When we hover over the button */
+#subscribe-btn:hover{
+    opacity: 0.8;
+}
+
+/* When we click the button */
+#subscribe-btn:active{
+    opacity: 0.5;
+}
+
+#join-btn{
+
+    background-color: rgb(255, 255, 255);
+    color: rgb(6, 95, 212);
+    border-radius: 4px;
+    border-style: solid;
+    border-color: rgb(6, 95, 212);
+    border-radius: 4px;
+
+    padding: 9px 15px;
+
+    /* height: 36px;
+    width: 70px; */
+
+    cursor: pointer;
+    /* for space between buttons */
+    margin-right: 8px;
+
+    transition: background-color 0.15s, color 0.15s;
+}
+
+#join-btn:hover{
+    background-color: rgb(2, 158, 225);
+    color: white;
+}
+
+#join-btn:active{
+    opacity: 0.8;
+}
+
+#tweet-btn{
+    background-color: rgb(29, 155, 240);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    
+    padding: 7px 16px;
+
+    /* height: 36px;
+    width: 80px; */
+    
+    cursor: pointer;
+    /* for space between buttons */
+    margin-right: 8px;
+
+    transition: box-shadow 0.15s, 
+
+
+}
+
+#tweet-btn:hover{
+    /* horizontal, vertical, blur effect, rgba */
+    /* a in rgba repesents the opacity */
+
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+#request-now-btn{
+    background-color: black;
+    color: white;
+    border: none;
+
+    padding: 10px 16px;
+
+    /* height: 35px;
+    width: 110px; */
+
+    cursor: pointer;
+
+    /* for space between buttons */
+    margin-right: 8px;
+
+    transition: opacity 0.15s;
+}
+
+#request-now-btn:hover{
+    opacity: 0.7;
+}
+
+#add-to-cart-btn{
+    background-color: rgb(255, 216, 20);
+    color: black;
+    border: none;
+
+    padding: 6px 30px;
+
+    /* height: 28px;
+    width: 135px; */
+
+    border-radius: 50px;
+    cursor: pointer;
+
+    /* for space between buttons */
+    margin-right: 8px;
+
+    transition: background-color 0.15s;
+}
+
+#add-to-cart-btn:hover{
+    background-color: rgb(255, 196, 0);
+}
+
+#sign-up-btn{
+    background-color: rgb(46, 164, 79);
+    color: white;
+    font-weight: bold;
+    border: none;
+
+    padding: 8px 14px;
+
+    /* height: 32px;
+    width: 80px; */
+
+    border-radius: 6px;
+    cursor: pointer;
+
+    /* for space between buttons */
+    margin-right: 8px;
+
+    transition: box-shadow 0.15s;
+
+}
+
+#sign-up-btn:hover{
+    box-shadow: 0 8px 5px rgba(0, 0, 0, 0.15);
+}
+
+.bootstrap-btn{
+    font-weight: bold;
+
+    padding: 10px 18px;
+    
+    /* height: 36px;
+    width: 112px; */
+
+    /* for space between buttons */
+    margin-right: 8px;
+}
+
+#get-started-btn{
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    transition: background-color 0.15s;
+
+}
+
+#get-started-btn:hover{
+    background-color: rgb(96, 47, 168);
+}
+
+#download-btn{
+    background-color: white;
+    color: rgb(108, 117, 125);
+    border: solid 1px;
+    border-radius: 4px;
+    border-color: rgb(108, 117, 125);
+    cursor: pointer;
+
+    transition: 0.15s;
+}
+
+#download-btn:hover{
+    background-color: rgb(108, 117, 125);
+    color: white;
+}
+
+.linkedin-btn{
+
+    
+    font-weight: bold;
+
+    padding-top: 8px;
+    padding-bottom: 8px;;
+    /* height: 30px; */
+
+    /* for space between buttons */
+    margin-right: 8px;
+}
+
+#apply-btn{
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border: none;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+
+    /* width: 210px; */
+
+    border-radius: 50px;
+    cursor: pointer;
+
+    transition: 0.15s;
+}
+
+#apply-btn:hover{
+    background-color: rgb(2, 67, 172);
+}
+
+#save-btn{
+    background-color: white;
+    color: rgb(10, 102, 194);
+    border: solid 1px rgb(10, 102, 194);
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    /* width: 75px; */
+
+    border-radius: 50px;
+    cursor:pointer;
+
+    transition: background-color 0.15s, border-width 0.10s;
+}
+
+#save-btn:hover{
+    background-color: rgb(206, 229, 252);
+    border-width: 2px;
+}

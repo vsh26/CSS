@@ -1,0 +1,53 @@
+.pagination-btn{
+    padding: 8px 6px;
+    border: 1px solid;
+    border-radius: 3px;
+    margin: 5px 10px;
+    cursor: pointer;
+}
+
+#stretch-btn{
+    background-color: rgb(1, 117, 0);
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    cursor: pointer;
+
+    transition: padding 0.50s;
+}
+
+#stretch-btn:hover{
+    padding: 12px 30px;
+}
+
+#three-D-click-btn{
+    background-color: rgb(1, 117, 0);
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.40);
+    cursor: pointer;
+}
+
+#three-D-click-btn:active{
+    margin-top: 3px;
+    margin-left: 3px;
+    box-shadow: none;
+}
+
+.nums-btn{
+    background-color: rgb(1, 117, 0);
+    color: white;
+    border: none;
+    padding: 4px 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.nums-btn:hover{
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
