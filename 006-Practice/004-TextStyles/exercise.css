@@ -1,0 +1,231 @@
+
+/* Exercise 5a */
+
+#tahoma-font{
+    /* Using Arial (Tahoma not working in my browser)*/
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+
+/* Exercise 5b */
+
+.deals{
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+#biggest-deal{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 6px;
+    
+}
+
+#sale-end{
+    font-size: 26px;
+    font-style: italic;
+    color: rgb(249, 50, 50);
+    margin-bottom: 18px;
+
+}
+
+
+/* Exercise 5c */
+
+.course{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.course p, .course button{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#course-title{
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+#course-subtitle{
+    font-size: 20px;
+    color: rgb(100, 100, 100);
+    margin-bottom: 20px;
+}
+
+#course-desc{
+    font-size: 20px;
+    width: 350px;
+    line-height: 1.2;
+    margin-bottom: 18px;
+}
+
+#get-started-btn{
+    background-color: #81a879;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 8px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+/* Exercise 5d */
+
+.apple-shopping{
+    font-family: Arial;
+    text-align: center;
+}
+
+.apple-shopping p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#apple-business{
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+#apple-see-help{
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+#apple-learn-more{
+    color: blue;
+    font-size: 20px;
+    margin-bottom: 18px;
+    cursor: pointer;
+}
+
+#apple-learn-more:hover{
+    text-decoration: underline;
+}
+
+/* Exercise 5e */
+
+.mac{
+    text-align: center;
+    font-family: Arial;
+}
+
+.mac p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#mac-condition{
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff7c02;
+    margin-bottom: 8px;
+}
+
+#mac-variant{
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+#mac-variant-desc{
+    font-size: 44px;
+    font-weight: bolder;
+    margin-bottom: 12px;
+}
+
+#mac-variant-price{
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+#mac-buy{
+    background-color: #2d72e2;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+/* Exercise 5f */
+
+.stock{
+    font-family: Arial;
+}
+
+.stock p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#current-price{
+    font-size: 50px;
+    margin-bottom: 6px;
+}
+
+#currency{
+    font-size: 28px;
+    color: rgb(100, 100, 100);
+}
+
+#stock-1{
+    font-size: 22px;
+    color: #6aa15f;
+    margin-bottom: 6px;
+}
+
+#stock-2{
+    font-size: 22px;
+    color: rgb(100, 100, 100);
+}
+
+#stock-2a{
+    color: rgb(221, 19, 60);
+}
+
+/* Exercise 5g */
+
+.tweet{
+    font-family: Arial;
+}
+
+.tweet p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#tweet-account{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+#tweet-username{
+    font-weight: lighter;
+    color: rgb(100, 100, 100);
+}
+
+#p1{
+    font-size: 20px;
+    width: 700px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+#p2{
+    font-size: 20px;
+}
+
+#tagged{
+    color: blue;
+    cursor: pointer;
+}
