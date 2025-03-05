@@ -1,6 +1,6 @@
-### Buttons
+# Buttons
 
-## Youtube Buttons
+## YouTube Buttons
 ![image](https://github.com/user-attachments/assets/2d06f759-d56b-4712-84e8-9d805d803639)
 
 - Subscribe button: `rgb(200, 0, 0)`
