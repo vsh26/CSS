@@ -1,0 +1,24 @@
+#thumbnail-1a{
+    width: 400px;
+}
+
+#thumbnail-1b{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    object-position: right;
+    border: 2px solid black;
+}
+
+#thumbnail-1c{
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    object-position: top;
+    border: 2px solid black;
+
+}
+
+#search-box{
+    font-size: 30px;
+}
