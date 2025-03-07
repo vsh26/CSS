@@ -12,17 +12,26 @@
 │-- 002-Flexbox                    # Flexbox and properties (justify-content, align-items, order, gap, flex-wrap, flex-direction, etc.)
 │-- 003-Grid                       # Grid and properties (grid-template-rows/columns, repeat, grid-gap, grid-row/column-start/end, span, grid-area)
 │-- 004-BoxModel                   # Box Model (Content, Padding, Border, Margin)
-│-- 005-Practice                   # Nav Bar, Hero Section, Clients section, Three-card section, basics understanding of media query 
+│-- 005-Practice                   # Nav Bar, Hero Section, Clients section, Three-card section, basics understanding of media query
+|-- 006-Practice                   # Topic-wise practice
 ```
 
 ## 📚 Resources
 Here are some of the best resources I studied from: 
 
 1. [Web Dev Cohort 1.0 by ChaiCode](https://courses.chaicode.com/learn/batch/about?bundleId=214297)
-2. [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS)
-3. [W3Schools CSS Guide](https://www.w3schools.com/css/default.asp)
+2. [HTML & CSS Full Course - Beginner to Pro](https://www.youtube.com/watch?v=G3e-cpL7ofc)
+3. [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS)
+4. [W3Schools CSS Guide](https://www.w3schools.com/css/default.asp)
 
 ## 🔗 Other useful resources
+- [HTML CSS Reference](https://supersimpledev.github.io/references/html-css-reference.pdf)
+- [The Only CSS Layout Guide You'll Ever Need](https://www.youtube.com/watch?v=i1FeOOhNnwU)
+- [CSS Exercises](https://github.com/SuperSimpleDev/html-css-course/tree/main/1-exercise-solutions)
+- [How to think in CSS?](https://piratefsh.github.io/how-to/2016/01/27/how-to-think-in-css.html)
+- [Thinking in Boxes](https://dev.to/ziizium/thinking-in-boxes-5ad6)
+- [Pesticide - Chrome Extension](https://chromewebstore.google.com/detail/pesticide-for-chrome/bakpbgckdnepkmkeaiomhmfcnejndkbi?hl=en)
+- [Flex Cheatsheet](https://yoksel.github.io/flex-cheatsheet/)
 - [Flexbox Froggy - A game for learning CSS Flexbox](https://flexboxfroggy.com/)
 - [CSS-Tricks Guides](https://css-tricks.com/guides/)
 - [Bento Grids](https://bentogrids.com/)
