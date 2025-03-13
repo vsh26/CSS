@@ -1,0 +1,97 @@
+*{
+    font-family: Arial;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.blue{
+    background-color: lightblue;
+}
+
+.pink{
+    background-color: lightpink;
+}
+
+/* 12a */
+.flexbox-1{
+    margin: 20px;
+    display: flex;
+    /* flex-direction: row; (default)*/
+}
+
+#flexbox-1-item-1{
+    width: 200px;
+}
+
+#flexbox-1-item-2{
+    width: 75px;
+}
+
+
+/* 12b */
+.flexbox-2{
+    margin: 20px;
+    display: flex;
+}
+
+#flexbox-2-item-1{
+    width: 50px;
+}
+
+#flexbox-2-item-2{
+    flex: 1;
+}
+
+#flexbox-2-item-3{
+    width: 75px;
+}
+
+/* 12c */
+.flexbox-3{
+    margin: 20px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 12d */
+.flexbox-4{
+    margin: 20px;
+    border: 1px solid black;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 12e */
+.flexbox-5{
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 4px 10px;
+    gap: 10px;
+}
+
+.home, .notifications, .messages{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.count{
+    background-color: rgb(49, 109, 245);
+    color: white;
+    font-weight: bold;
+    padding: 4px 13px;
+    border-radius: 16px;
+}
+
+/* 12f */
+
+/* 12g */
