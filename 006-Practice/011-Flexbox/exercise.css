@@ -94,4 +94,92 @@
 
 /* 12f */
 
+.flexbox-6{
+    background-color: #7254ac;
+    padding: 10px 16px;
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexbox-6 button{
+    background-color: #7254ac;
+    color: white;
+    border: 1px solid white;
+    padding: 6px 12px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.flexbox-6 input{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    width: 50%;
+    border: none;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
 /* 12g */
+
+.flexbox-7{
+    margin: 20px;
+    width: 400px;
+    border: 1px solid black;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    gap: 10px;
+}
+
+.profile img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-info{
+    width: 70%;
+}
+
+#name{
+    font-weight: bold;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#name-desc, #popularity{
+    color: rgb(142, 142, 142);
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#name-desc{
+    font-size: 16px;
+}
+
+#popularity{
+    font-size: 14px;
+}
+
+#follow-btn{
+    background-color: #3e94f1;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
