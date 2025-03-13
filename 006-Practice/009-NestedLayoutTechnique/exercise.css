@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.animal-cards{
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 160px;
+    display: inline-block;
+
+}
+
+.profile-image{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+}
+
+.animal-cards h2{
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.mutual-friends-image{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.animal-cards p{
+    font-size: 13px;
+    margin-left: 5px;
+    margin-bottom: 8px;
+    color: rgb(97, 97, 97);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.animal-cards button{
+    margin-left: 5px;
+    margin-bottom: 8px;
+    background-color: #3976e3;
+    color: white;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
