@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body{
+    height: 3000px;
+    padding: 10px;
+}
+
+.facebook-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    right: 20px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+
+    gap: 14px;
+}
+
+.profile h2{
+    font-size: 16px;
+}
+
+img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-action button{
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.add-btn{
+    background-color: #4475c7;
+    color: white;
+}
+
+.msg-btn{
+    background-color: rgb(213, 213, 213);
+}
