@@ -14,6 +14,7 @@
 │-- 004-BoxModel                   # Box Model (Content, Padding, Border, Margin)
 │-- 005-Practice                   # Nav Bar, Hero Section, Clients section, Three-card section, basics understanding of media query
 |-- 006-Practice                   # Topic-wise practice
+|-- 007-Tailwind-CSS               # Tailwind CSS
 ```
 
 ## 📚 Resources
