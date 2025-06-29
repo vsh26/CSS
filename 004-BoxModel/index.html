@@ -9,12 +9,31 @@
 <style>
     div{
 
+        /* 
+        
+        The CSS Box Model defines how elements are sized, positioned, and rendered on a webpage.
+        When a browser loads an HTML document, it creates a DOM tree and assigns a box to each element. (Everything is rendered as a box)
+        This box calculates the element's dimensions and position relative to its parent or the root <html> element,
+        ensuring accurate layout and spacing.
+
+        Content: The area where text or other content is displayed.
+        Padding: Space between the content and the element's border.
+        Border: A frame that wraps around the padding and content.
+        Margin: Space between the element's border and neighbouring elements.
+        
+        */
+
         /* Content: 50x50 */
         height: 100px;
         width: 100px;
 
         /* Border 10x10 */
-        border: 10px solid black;
+        
+        /* border-width: 10px;
+        border-style: solid;
+        border-color: black; */
+
+        border: 10px solid black; /*shorthand-notaion*/
 
         /* Padding 20x20 */
         padding: 20px;
@@ -26,11 +45,21 @@
 
         /* 
             box-sizing:
-                - border-box (this will keep the total height = content height)
-                - content-box (default)
+                - border-box - The width and height include content + padding + border. This makes layout more predictable.
+
+                - content-box (default) - The width and height you set only apply to the content.
+                                            Padding and borders are added outside that, making the actual rendered box larger.
         */
 
-        /* box-sizing: border-box;  */
+        /*
+
+            CSS Reset:
+
+            *{
+                box-sizing: border-box;
+            }
+        
+        */
     }
 
     #box-1{
