@@ -1,0 +1,44 @@
+/* 
+
+4 - ways :
+
+- Named
+- rgb values
+- Hex Code
+- hsl values
+
+
+*/
+
+/* Named */
+p{
+    background-color: antiquewhite;
+    color: blueviolet;
+}
+
+/* rgb */
+.p1{
+
+    /*
+        rgba (a stands for alpha) - used to set transparency
+            0 - full transparent
+            1 - opaque
+    
+    */
+
+    background-color:rgb(123, 143, 161, 0.51);
+    color: rgb(255, 255, 255);
+}
+
+/* hex */
+.p2{
+    background-color: #63c77e; /*transprency can also be added*/
+    color: #000000;
+}
+
+/* hsl - hue saturation lightness */
+.p3{
+    /* hsla */
+    background-color: hsl(35, 100%, 50%, 40%);
+    color: hsl(0, 0%, 0%);
+}
