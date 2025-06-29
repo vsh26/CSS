@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            border: 1px solid black;
+        }
+
+        .box{
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            border: 1px solid black;
+            background-color: aqua;
+        }
+
+        @media (min-width: 500px) and (max-width: 800px){
+            .box{
+                background-color: green;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- 
+    
+    Media queries allow you to apply different CSS styles depending on the device’s characteristics such as:
+
+    - Screen size (width/height)
+    - Device type (screen, print, etc.)
+    - Resolution (dpi)
+    - Orientation (portrait/landscape)
+
+    Basic syntax:
+
+        @media media-type and (condition) {
+            /* CSS rules here */
+        }
+
+    -->
+
+    <div class="container">
+        <div class="box">
+            
+        </div>
+    </div>
+</body>
+</html>
