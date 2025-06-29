@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- 
+    
+    Every element is displayed/ rendered differently on a webpage.
+
+    The display property specifies the display behavior (the type of rendering box) of an element.
+
+    - block
+        - width = full (100%) width of its container
+        - always on new-line
+        - we can set custom width and height
+        - we can set custom margin and padding (in all directions)
+        - common examples: <div>, <section>, <p>, <h1>–<h6>
+
+    - inline
+        - width = only as much width as its content
+        - same line with other inline elements, if space allows
+        - we cannot set custom width and height
+        - we can set custom margin only in horizontal direction (left/right)
+        - we can apply custom padding (vertical padding is visible, but limited in effect)
+
+    (We can convert the elements from block to inline and inline to block)
+
+    - inline-block
+        - behaves as inline (i.e., same line with other inline elements, if space allows )
+        - but we can apply all properties (size and style) of block (custom width, height, margin, padding)
+    
+    -->
+
+    <table border="1" cellpadding="8" cellspacing="0">
+    <thead>
+        <tr>
+            <th>Property</th>
+            <th>New Line?</th>
+            <th>Custom Width/Height</th>
+            <th>Margin</th>
+            <th>Padding</th>
+            <th>Sits Inline?</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><code>block</code></td>
+            <td style="color: green;">Yes</td>
+            <td style="color: green;">Yes</td>
+            <td style="color: green;">All</td>
+            <td style="color: green;">All</td>
+            <td style="color: red;">No</td>
+        </tr>
+        <tr>
+            <td><code>inline</code></td>
+            <td style="color: red;">No</td>
+            <td style="color: red;">No</td>
+            <td style="color: orange;">Horizontal only</td>
+            <td>
+                <span style="color: green;">All</span> 
+                <span style="color: orange;"> (vertical limited)</span>
+            </td>
+            <td style="color: green;">Yes</td>
+        </tr>
+        <tr>
+            <td><code>inline-block</code></td>
+            <td style="color: red;">No</td>
+            <td style="color: green;">Yes</td>
+            <td style="color: green;">All</td>
+            <td style="color: green;">All</td>
+            <td style="color: green;">Yes</td>
+        </tr>
+    </tbody>
+    </table>
+
+</body>
+</html>
