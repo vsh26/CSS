@@ -7,23 +7,35 @@
 ## 📋 Topics 
 
 ```
-📦 CSS  
+📦 CSS 
 │-- 001-Basics                     # Methods to write CSS, specificity, selectors
-│-- 002-Flexbox                    # Flexbox and properties (justify-content, align-items, order, gap, flex-wrap, flex-direction, etc.)
-│-- 003-Grid                       # Grid and properties (grid-template-rows/columns, repeat, grid-gap, grid-row/column-start/end, span, grid-area)
-│-- 004-BoxModel                   # Box Model (Content, Padding, Border, Margin)
-│-- 005-Practice                   # Nav Bar, Hero Section, Clients section, Three-card section, basics understanding of media query
-|-- 006-Practice                   # Topic-wise practice
-|-- 007-Tailwind-CSS               # Tailwind CSS
+|-- 002-FontsAndColors             # Color values: named, rgb, hex, hsl; fonts, external-fonts
+|-- 003-BoxModel                   # Box Model (Content, Padding, Border, Margin)
+|-- 004-DisplayProperty            # inline, block, inline-block
+|-- 005-PositionProperty           # static, relative, absolute, fixed, sticky
+|-- 006-SizeUnits                  # Absolute: px | Relative: %, vh, vw, em, rem
+|-- 007-FloatClearOverflow         # float, clear, great collapse, overflow
+│-- 008-Flexbox                    # Flexbox and properties
+|-- 009-MediaQueries               # Responsive design, min-width, max-width
+|-- 010-ShadowEffects              # box-shadow, text-shadow
+|-- 011-Animations                 #
+|-- 012-Transitions                #
+|-- 013-2D-Transforms              #
+│-- 014-Grid                       # Grid and properties
+|-- 015-3D-Transforms              #
+|-- 016-Tailwind-CSS               # Tailwind CSS
+│-- 101-Practice                   # Nav Bar, Hero Section, Clients section, Three-card section, basics understanding of media query
+|-- 102-Practice                   # Topic-wise practice
 ```
 
 ## 📚 Resources
 Here are some of the best resources I studied from: 
 
 1. [Web Dev Cohort 1.0 by ChaiCode](https://courses.chaicode.com/learn/batch/about?bundleId=214297)
-2. [HTML & CSS Full Course - Beginner to Pro](https://www.youtube.com/watch?v=G3e-cpL7ofc)
-3. [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS)
-4. [W3Schools CSS Guide](https://www.w3schools.com/css/default.asp)
+2. [CSS Tutorial For Beginners In Hindi 2024 by CodeHelp](https://www.youtube.com/watch?v=dSJM4Gyh8jE)
+3. [HTML & CSS Full Course - Beginner to Pro](https://www.youtube.com/watch?v=G3e-cpL7ofc)
+4. [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS)
+5. [W3Schools CSS Guide](https://www.w3schools.com/css/default.asp)
 
 ## 🔗 Other useful resources
 - [HTML CSS Reference](https://supersimpledev.github.io/references/html-css-reference.pdf)
@@ -47,6 +59,7 @@ Here are some of the best resources I studied from:
 [![X](https://img.shields.io/badge/X-%23000000.svg?logo=X&logoColor=white)](https://twitter.com/VishalKapgate)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white)](mailto:vishaldk26@gmail.com)
 [![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)](https://linkedin.com/in/vishalkapgate)
+[![Peerlist](https://img.shields.io/badge/-Peerlist-00AA45?style=flat&logo=peerlist&logoColor=white)](https://peerlist.io/vishalkapgate)
 
 </div>
 
