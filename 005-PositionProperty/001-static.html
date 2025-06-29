@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        div{
+            border: 1px solid black;
+        }
+
+        img{
+            margin: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- 
+    
+    The position property specifies the type of positioning method used for an element
+        - static (default)
+        - relative
+        - absolute
+        - fixed
+        - sticky
+
+        - position: static
+            - elements are positioned static by default
+            - static positioned elemets are not affected by z-index, top, bottom, left, and right properties
+            - an element with position: static; is not positioned in any special way;
+                it is always positioned according to the normal flow of the page
+
+        - position: relative
+            - positioned relative to its normal position
+            - setting the top, right, bottom, and left properties of a relatively-positioned element
+                will cause it to be adjusted away from its normal position
+            - other content will not be adjusted to fit into any gap left by the element
+
+        - position: absolute
+            - positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed),
+                i.e., top, right, bottom, and left properties are applied w.r.t to nearest positioned ancestor
+            - if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling
+            - absolute positioned elements are removed from the normal flow, and can overlap elements (gap not maintained)
+            - practice:
+                - mark nearest positioned ancestor as relative
+                - mark the element to be absolute
+
+        - position: fixed
+            - positioned relative to the viewport (which means it always stays in the same place even if the page is scrolled)
+            - top, right, bottom, and left properties are used to position the element
+            - fixed positioned elements are removed from the normal flow, and can overlap elements (gap not maintained)
+
+        - position: sticky
+            - a sticky element behaves like a relative element until a specified scroll position is reached — then it becomes fixed and sticks in place
+                (The element scrolls with the page normally at first (like relative)
+                Once you scroll far enough, it freezes in place (like fixed)
+                But it doesn’t stay stuck forever — only until the parent container ends)
+            - sticks only within its parent container.
+            - must specify at least one of top, right, bottom or left for sticky positioning to work
+            -  a sticky element does not leave a gap when it sticks (even when it becomes fixed) — the gap is already reserved because the element remains in flow
+
+        z-index
+            - The z-index property controls the stacking order of elements along the z-axis (i.e., front-to-back, not just left-to-right or top-to-bottom)
+            - z-index only works on positioned elements (relative, absolute, fixed, sticky)
+            - Higher z-index values = appear on top
+            - Lower z-index values = appear behind
+    -->
+
+    <div class="container">
+        <img
+            height="200px"
+            width="200px"
+            src="img01.jpg"
+            alt="Img-01"
+            class="img-1"
+        />
+        <img
+            height="200px"
+            width="200px"
+            src="img02.jpg"
+            alt="Img-02"
+            class="img-2"
+        />
+        <img
+            height="200px"
+            width="200px"
+            src="img03.jpg"
+            alt="Img-03"
+            class="img-3"
+        />
+        <img
+            height="200px"
+            width="200px"
+            src="img04.jpg"
+            alt="Img-04"
+            class="img-4"
+        />
+    </div>
+
+</body>
+</html>

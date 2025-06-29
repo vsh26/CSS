@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .container-0{
+            border: 1px solid black;
+            /* background-color: burlywood; */
+            height: 5000px;
+        }
+        .container{
+            border: 1px solid black;
+            background-color: aqua;
+            height: 8000px;
+        }
+
+        .box{
+            border: 1px solid black;
+            background-color: brown;
+            height: 5000px;
+        }
+
+        img{
+            margin: 10px;
+        }
+
+        .img-4{
+            position: fixed;
+            top: 20px;
+        }
+
+        .img-2{
+            position: sticky;
+            top: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- 
+
+        - position: sticky
+            - a sticky element behaves like a relative element until a specified scroll position is reached — then it becomes fixed and sticks in place
+                (The element scrolls with the page normally at first (like relative)
+                Once you scroll far enough, it freezes in place (like fixed)
+                But it doesn’t stay stuck forever — only until the parent container ends)
+            - sticks only within its parent container.
+            - must specify at least one of top, right, bottom or left for sticky positioning to work
+            -  a sticky element does not leave a gap when it sticks (even when it becomes fixed) — the gap is already reserved because the element remains in flow.
+    -->
+
+    <div class="container-0">
+
+    </div>
+    <div class="container">
+        <img
+            height="200px"
+            width="200px"
+            src="img01.jpg"
+            alt="Img-01"
+            class="img-1"
+        />
+        <img
+            height="200px"
+            width="200px"
+            src="img02.jpg"
+            alt="Img-02"
+            class="img-2"
+        />
+        <img
+            height="200px"
+            width="200px"
+            src="img03.jpg"
+            alt="Img-03"
+            class="img-3"
+        />
+        <img
+            height="200px"
+            width="200px"
+            src="img04.jpg"
+            alt="Img-04"
+            class="img-4"
+        />
+    </div>
+    <div class="box">
+
+    </div>
+</body>
+</html>

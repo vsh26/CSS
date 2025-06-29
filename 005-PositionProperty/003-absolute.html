@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        div{
+            border: 1px solid black;
+            position: relative
+        }
+
+        img{
+            margin: 10px;
+        }
+        
+        .img-2{
+            position: absolute;
+            top: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- 
+
+        - position: absolute
+            - positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed),
+                i.e., top, right, bottom, and left properties are applied w.r.t to nearest positioned ancestor
+            - if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling
+            - absolute positioned elements are removed from the normal flow, and can overlap elements (gap not maintained)
+            - practice:
+                - mark nearest positioned ancestor as relative
+                - mark the element to be absolute
+
+    
+    -->
+
+    <div class="container">
+        <img
+            height="200px"
+            widht="200px"
+            src="img01.jpg"
+            alt="Img-01"
+            class="img-1"
+        />
+        <img
+            height="200px"
+            widht="200px"
+            src="img02.jpg"
+            alt="Img-02"
+            class="img-2"
+        />
+        <img
+            height="200px"
+            widht="200px"
+            src="img03.jpg"
+            alt="Img-03"
+            class="img-3"
+        />
+        <img
+            height="200px"
+            widht="200px"
+            src="img04.jpg"
+            alt="Img-04"
+            class="img-4"
+        />
+    </div>
+</body>
+</html>
