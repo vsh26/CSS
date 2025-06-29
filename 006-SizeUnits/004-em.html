@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            font-size: 10px;
+        }
+
+        .box{
+            font-size: 10em; /* here, 10em  = 100px */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 
+    
+    em - relative to parent element
+
+    In most browsers, 16px is the default font-size
+    So,
+        1em = 16px
+        5em = 80px (5*16)
+        10em = 160px (10*16)
+
+    -->
+    <p>Hello!</p>
+    <div class="container">
+        <div class="box">
+            Welcome to Web!
+        </div>
+    </div>
+</body>
+</html>
