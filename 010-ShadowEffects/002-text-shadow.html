@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        :root{
+            --primary-color: brown;     /* variable */
+        }
+
+        .container{
+            background-color: beige;
+            height: 800px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img{
+            width: 300px;
+        }
+
+        /* 
+        
+        Specify a text-shadow using:
+
+            -Two or three <length> values.
+
+                - If only two values are given, they are interpreted as <offset-x> and <offset-y> values.
+                - If a third value is given, it is interpreted as a <blur-radius>.
+
+            - Optionally, a <color> value.
+  
+        */
+
+        .box{
+            --custom-width: 350px;        /* variable */
+            background-color: aqua;
+            width: var(--custom-width);
+            height: 450px;
+            border: 5px solid var(--primary-color);
+            padding: 5px;
+
+            /* text-shadow: 10px 10px whitesmoke; */
+            /* text-shadow: 10px 10px 10px; */
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="ts.png" alt="">
+            <h1>Tony Stark</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vero voluptatem ipsa. Libero quas accusantium omnis, magni quae officiis vel quod fugit doloremque quos odit eligendi quo at tenetur debitis recusandae voluptates sint totam quis maxime placeat aliquam, fugiat exercitationem nisi. Ratione, nostrum ipsa voluptatibus quasi nihil sunt? Voluptas, cupiditate.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
