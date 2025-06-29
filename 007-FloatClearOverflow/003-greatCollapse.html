@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .box{
+            border: 1px solid black;
+            /* overflow: auto; */
+            /* This can fix the great collapse */
+
+        }
+
+        .item{
+            width: 200px;
+            height: 200px;
+            margin: 2px;
+            background-color: aqua;
+            border: 1px solid black;
+            float: right;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- 
+    
+    If a parent contains nothing but float elements, its height collapses to nothing
+    Every element overflows the parent element
+    
+    -->
+    <div class="box">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+    </div>
+</body>
+</html>
