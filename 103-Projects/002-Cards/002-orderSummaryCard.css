@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Mono&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+}
+
+.card{
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+}
+
+#main-image{
+    width: 100%;
+    height: 30%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.order-summary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 15px;
+}
+
+.plan{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 10%;
+    background-color: #63ddff;
+    border-radius: 1rem;
+}
+
+.plan-box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#plan-icon{
+    height: 4rem;
+    width: 4rem;
+}
+
+/* .amount{
+    
+} */
+
+/* #change-option{
+
+} */
+
+button{
+    background-color: midnightblue;
+    color: white;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 0.25rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#cancel-order{
+    text-decoration: none;
+}
