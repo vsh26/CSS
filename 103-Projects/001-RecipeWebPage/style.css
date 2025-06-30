@@ -74,25 +74,25 @@ background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 
     font-weight: 1.5rem;
 }
 
-.item-ingredients-container{
+/* .item-ingredients-container{
 
-}
+} */
 
 .item-ingredients-head{
     font-weight: 1.2rem;
 }
 
-.item-recipe-steps-container{
+/* .item-recipe-steps-container{
 
-}
+} */
 
 .item-recipe-head{
     font-weight: 1.2rem;
 }
 
-.item-image-container{
+/* .item-image-container{
 
-}
+} */
 
 img{
     width: 200px;
