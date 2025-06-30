@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Mono&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+.container{
+
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+/* .text-container{
+
+} */
+
+.content-box{
+    background-color: rgb(88, 11, 37);
+    color: white;
+    padding: 5rem;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+
+}
+
+/* .card-title{
+
+} */
+
+/* .card-desc{
+
+} */
+
+.stats-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stats-num{
+    font-size: 1.4rem;
+}
+
+.stats-desc{
+    font-size: small;
+}
+
+.image-container{
+    width: 500px;
+    height: 500px;
+    /* border: 1px solid black; */
+
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
