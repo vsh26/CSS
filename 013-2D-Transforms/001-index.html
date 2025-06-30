@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .container{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box{
+            width: 400px;
+            height: 400px;
+            background-color: beige;
+            border: 2px solid black;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            margin: auto;
+
+            transition: all 3s linear 1s;
+        }
+
+        .box:hover{
+            /* transform: rotate(360deg) ; */
+            /* transform: rotate(-360deg); */
+
+            /* transform: scale(2); */
+            /* transform: scale(0.5); */
+
+            /* transform: skew(45deg); */
+            /* transform: skew(-45deg); */
+
+            /* transform: translate(300px); */
+            /* transform: translate(-300px); */
+
+            transform: translate(300px, 300px);
+
+        }
+
+        p{
+            font-size: 36px;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- 
+    
+    CSS transforms allow you to move, rotate, scale, and skew elements.
+
+    - translate()
+    - rotate()
+    - scaleX()
+    - scaleY()
+    - scale()
+    - skewX()
+    - skewY()
+    - skew()
+    - matrix() - combines all 2D transform functions into one (takes 6 params)
+
+        matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY())
+    
+    -->
+
+    <div class="container">
+        <div class="box">
+            <p>This is a box</p>
+        </div>
+    </div>
+</body>
+</html>
