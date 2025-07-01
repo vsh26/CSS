@@ -28,6 +28,7 @@ Before starting to learn CSS, watch: [A CSS learning guide for beginners](https:
 |-- 016-Tailwind-CSS               # Tailwind CSS
 │-- 101-Practice                   # Nav Bar, Hero Section, Clients section, Three-card section, basics understanding of media query
 |-- 102-Practice                   # Topic-wise practice
+|-- 103-Projects                   # Cards, Blog WebPage, Study platform landing page (full)
 ```
 
 After completing the basics of CSS, watch: [Why I dont care about CSS | tailwind, shadcn, shoelace, radix, react aria](https://www.youtube.com/watch?v=4-Y0r7aIZJQ)
